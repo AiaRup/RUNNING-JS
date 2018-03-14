@@ -8,7 +8,7 @@ if (age >= 18) {
 
 // Individual Exercise 2
 var citizenship = prompt('What\'s your citizenship?');
-if (citizenship === 'Israeli') {
+if (citizenship.toLowerCase() === 'israeli') {
   alert('You can Pass');
 } else {
   alert('No ENTRY!');
@@ -18,7 +18,7 @@ if (citizenship === 'Israeli') {
 var myAge = prompt('What\'s your age?');
 var gender = prompt('What\'s your gender?');
 
-if (myAge >= 18 && gender === 'female') {
+if (myAge >= 18 && gender.toLowerCase() === 'female') {
   alert('You can drink for free!');
 } else if (myAge >= 18) {
   alert('You can drink but you must pay!');
